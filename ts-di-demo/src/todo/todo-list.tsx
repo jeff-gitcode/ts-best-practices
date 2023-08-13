@@ -18,7 +18,7 @@ function TodoList() {
             }
         }
         fetchTodos();
-    }, []);
+    }, [todoService]);
 
     return (
         <ul>
