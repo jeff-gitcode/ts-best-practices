@@ -1,7 +1,7 @@
 import { Todo } from "./todo-model";
 
 export const TodoService = {
-    async getTodos(): Promise<Todo[]> {
+    getTodos(): Todo[] {
         return [{
             id: '1',
             title: 'Todo 1',
